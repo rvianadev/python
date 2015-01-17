@@ -40,7 +40,7 @@ for turn in range(4):
 		break
 	else:
 		if (guess_row < 0 or guess_row > 4) or (guess_col < 0 or guess_col > 4):
-			print("Oops, isso não é nem mesmo no oceano.")
+			print("Oops, fora do oceano.")
 		elif(board[guess_row][guess_col] == "X"):
 			print("Você já tentou esse.")
 		else:
