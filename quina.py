@@ -9,7 +9,6 @@
 # Rodrigo Viana de Oliveira - roviol@gmail.com
 # 23/07/2017
 
-
 # Gerador de números para a Quina
 # Versão 1.0
 # Rodrigo Viana de Oliveira - roviol@gmail.com
