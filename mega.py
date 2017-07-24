@@ -1,11 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
+# Gerador de números para a Mega Sena
+# Verso 1.1
+# Corrigido o bug de dezenas repetidas no mesmo bilhete
+# Os bilhetes são apresentados com as dezenas ordenadas
+# O valor total da aposta é mostrado no final do programa
+# Rodrigo Viana de Oliveira - roviol@gmail.com
+# 23/07/2017
+# -------------------------------------------------------
 # Breno Rodrigues - brenofeliphe@gmail.com
 # Mega Sena - number generator
 # 11/01/2015
 # adapted from:
-#------------------------------------------------
+#--------------------------------------------------------
 # Gerador de números para a Quina
 # Versão 1.0
 # Rodrigo Viana de Oliveira - roviol@gmail.com
