@@ -31,19 +31,29 @@ print()
 for n in range(1, bilhetes + 1):
 	bilhete = []
 	for z in range(dezenas):
-		numero = randint(1,80)
-		for x in range(0, len(bilhete)):
-			if numero == bilhete[x]:
-				numero = randint(1,80)
-		bilhete.append(numero)
-		bilhete.sort()
+		duplicado = 1
+		contador = 0
+		while duplicado == 1:
+			numero = randint(1,80)
+			while contador < len(bilhete):
+				for x in range(len(bilhete)):
+					if numero == bilhete[x]:
+						numero = randint(1,80)
+						contador = 0
+						break
+					else:
+						contador += 1
+			bilhete.append(numero)
+			duplicado = 0
+
+	bilhete.sort()
 	print('Bilhete %d: ' % n, bilhete)
 print()
-print('-' * 48)
-print('Valor total da aposta é R$ %.2f' % total)
-print('-' * 48)
+print("-" * 48)
+print("Valor total da aposta é R$ %.2f" % total)
+print("-" * 48)
 print()
-print ('               BOA SORTE!!!             ')
+print ("               BOA SORTE!!!             ")
 print()
-print('$' * 48)
+print("$" * 48)
 print()
