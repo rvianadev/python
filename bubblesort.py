@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
+#
+# Implementação de código de ordenação bubble sort
+# 
 
 tamanho = int(input("Informe o tamanho do vetor: "))
 print()
