@@ -12,7 +12,7 @@ loop = 0
 for n in range(tamanho):
     i = n+1
     numero = randint(1,10000)
-    print("%dº número gerado: " %i) # %d é um marcador de número inteiro
+    print("%dº número gerado: %d" % (i, numero)) # %d é um marcador de número inteiro
     vetor.append(numero)
 
 # Aqui acontece o Bubble Sort (ordenação)
