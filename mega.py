@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 # Gerador de números para a Mega Sena
-# Verso 1.1
+# Versao 1.1
 # Corrigido o bug de dezenas repetidas no mesmo bilhete
 # Os bilhetes são apresentados com as dezenas ordenadas
 # O valor total da aposta é mostrado no final do programa
